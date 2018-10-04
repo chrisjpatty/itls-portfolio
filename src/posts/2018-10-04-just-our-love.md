@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Just Our Love
+title: 'Exhibit 2: Just Our Love'
 date: '2018-10-04T16:48:54-06:00'
 thumbnail: /uploads/apocalypse-composite-preview.jpg
 image: /uploads/apocalypse-composite.jpg
