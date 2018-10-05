@@ -52,19 +52,11 @@ export default {
       {
         path: '/',
         component: 'src/containers/Home',
-      },
-      {
-        path: '/about',
-        component: 'src/containers/About',
-      },
-      {
-        path: '/blog',
-        component: 'src/containers/Blog',
         getData: () => ({
           posts,
         }),
         children: posts.map(post => ({
-          path: `/post/${post.data.slug}`,
+          path: `/${post.data.slug}`,
           component: 'src/containers/Post',
           getData: () => ({
             post,
