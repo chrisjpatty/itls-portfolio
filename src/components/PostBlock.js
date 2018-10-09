@@ -49,7 +49,7 @@ const Preview = styled('img')({
   width: '100%',
   height: '100%',
   maxWidth: 400,
-  maxHeight: 400,
+  // maxHeight: 400,
   transition: 'transform 500ms, box-shadow 400ms'
 })
 
