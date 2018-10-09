@@ -11,6 +11,7 @@ Freya, in Norse mythology, is the Goddess of love, beauty, and fertility. This d
 * Advanced scatter brushing
 * Layer-styles and Layer blend modes
 * Solar-flare generation
+* Lens blur
 * and gradient mapping
 
 **_Credits:_**
