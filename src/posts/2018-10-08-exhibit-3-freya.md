@@ -5,7 +5,7 @@ date: '2018-10-08T22:28:05-06:00'
 thumbnail: /uploads/highfashion.jpg
 image: /uploads/highfashion.jpg
 ---
-Freya, in Norse mythology, is the Goddess of love, beauty, and fertility. This depiction combines combines photographic elements, with purely computer-generated elements. Some of the photoshop skills demonstrated in this image include:
+Freya, in Norse mythology, is the Goddess of love, beauty, and fertility. This depiction combines combines photographic elements, with purely computer-generated elements. The piece demonstrates design principles like repetition through the use of advanced photoshop brush techniques. For example, the red triangles in this image started as an image that was then converted in a scatter brush, and then painted into the image using a graphics tablet. Some other photoshop skills demonstrated in this image include:
 
 * Layer management
 * Advanced scatter brushing
@@ -14,7 +14,7 @@ Freya, in Norse mythology, is the Goddess of love, beauty, and fertility. This d
 * Lens blur
 * and gradient mapping
 
-**_Credits:_**
+_**Credits:**_
 
 _Images via Unsplash_
 
