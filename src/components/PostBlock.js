@@ -32,8 +32,8 @@ export default class PostBlock extends React.Component{
 const linkCSS = color => css({
   '&:hover': {
     img: {
-      transform: 'scale(1.03)',
-      boxShadow: `0px 0px 100px -4px ${color}`
+      transform: 'translate(8px, -8px)',
+      boxShadow: `-15px 15px 0px 0px ${color}`
     }
   }
 })
@@ -50,7 +50,7 @@ const Preview = styled('img')({
   height: '100%',
   maxWidth: 400,
   // maxHeight: 400,
-  transition: 'transform 500ms, box-shadow 400ms'
+  transition: 'transform 400ms, box-shadow 400ms'
 })
 
 const Title = styled('h2')({
