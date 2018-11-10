@@ -22,7 +22,7 @@ export default class PostBlock extends React.Component{
       <Wrapper>
         <Link to={`/${slug}`} className={linkCSS(this.state.color)}>
           <Preview src={thumbnail}/>
-          <Title>{title}</Title>
+          <Title className="title">{title}</Title>
         </Link>
       </Wrapper>
     )
@@ -34,6 +34,9 @@ const linkCSS = color => css({
     img: {
       transform: 'translate(8px, -8px)',
       boxShadow: `-15px 15px 0px 0px ${color}`
+    },
+    '& .title': {
+      opacity: 1
     }
   }
 })
@@ -42,7 +45,8 @@ const Wrapper = styled('div')({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
-  alignItems: 'center'
+  alignItems: 'center',
+  padding: 30
 })
 
 const Preview = styled('img')({
@@ -55,6 +59,9 @@ const Preview = styled('img')({
 
 const Title = styled('h2')({
   textAlign: 'center',
-  color: '#fff',
-  textDecoration: 'none'
+  color: 'rgb(255, 255, 255)',
+  opacity: .7,
+  textDecoration: 'none',
+  transition: 'opacity 400ms',
+  fontWeight: 400
 })
