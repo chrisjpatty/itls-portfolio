@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Design Expo Poster
+title: 'Exhibit 6: Design Expo'
 date: '2018-11-20T20:53:50-07:00'
 thumbnail: /uploads/mock-poster-preview.jpg
 image: /uploads/mock-poster.jpg
