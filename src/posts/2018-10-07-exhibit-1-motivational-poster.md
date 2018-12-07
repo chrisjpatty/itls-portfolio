@@ -1,5 +1,6 @@
 ---
 layout: blog
+order: '0'
 title: 'Exhibit 1: Motivational Poster'
 date: '2018-10-01T14:45:52-06:00'
 thumbnail: /uploads/portfolio_1_preview.jpg
