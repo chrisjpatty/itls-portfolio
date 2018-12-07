@@ -1,5 +1,6 @@
 ---
 layout: blog
+order: '7'
 title: 'Exhibit 7: Expo Flyer'
 date: '2018-12-06T23:45:19-07:00'
 thumbnail: /uploads/screen-shot-2018-11-10-at-9.30.14-pm.png
