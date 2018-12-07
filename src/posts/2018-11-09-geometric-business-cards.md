@@ -1,5 +1,6 @@
 ---
 layout: blog
+order: '3'
 title: 'Exhibit 3: Business Cards'
 date: '2018-11-09T22:36:45-07:00'
 thumbnail: /uploads/business-cards.png
