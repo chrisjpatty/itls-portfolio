@@ -32,7 +32,7 @@ function getPosts () {
         .on('end', () => {
           // Resolve promise for async getRoutes request //
           // posts = items for below routes //
-          items = orderBy(items, ['order'], ['asc']);
+          items = orderBy(items, x=>x.data.order);
           resolve(items)
         })
     } else {

@@ -17,7 +17,6 @@ export default class PostBlock extends React.Component{
   render(){
     const { post } = this.props;
     const { thumbnail, title, slug } = post.data;
-    console.log(post);
     return(
       <Wrapper>
         <Link to={`/${slug}`} className={linkCSS(this.state.color)}>
