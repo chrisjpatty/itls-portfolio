@@ -1,5 +1,6 @@
 ---
 layout: blog
+order: '8'
 title: 'Exhibit 8: USU Poster'
 date: '2018-11-23T18:21:02-07:00'
 thumbnail: /uploads/tuition_reminder_preview.png
