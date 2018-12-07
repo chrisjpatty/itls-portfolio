@@ -1,5 +1,6 @@
 ---
 layout: blog
+order: '4'
 title: 'Exhibit 4: Freya'
 date: '2018-10-08T22:28:05-06:00'
 thumbnail: /uploads/highfashion.jpg
