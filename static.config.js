@@ -2,9 +2,10 @@ const fs = require('fs')
 const klaw = require('klaw')
 const path = require('path')
 const matter = require('gray-matter')
+const orderBy = require('lodash/orderBy')
 
 function getPosts () {
-  const items = []
+  let items = []
   // Walk ("klaw") through posts directory and push file paths into items array //
   const getFiles = () => new Promise(resolve => {
     // Check if posts directory exists //
@@ -31,6 +32,7 @@ function getPosts () {
         .on('end', () => {
           // Resolve promise for async getRoutes request //
           // posts = items for below routes //
+          items = orderBy(items, ['order'], ['asc']);
           resolve(items)
         })
     } else {
