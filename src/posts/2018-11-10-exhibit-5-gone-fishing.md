@@ -1,5 +1,6 @@
 ---
 layout: blog
+order: '5'
 title: 'Exhibit 5: Gone Fishing'
 date: '2018-11-10T00:30:02-07:00'
 thumbnail: /uploads/ocean-in-a-jar_preview.png
